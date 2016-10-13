@@ -1,8 +1,9 @@
-##Twipy
+## drippy
 
-Twipy is a little Python script that I use to monitor a Twitter Timeline for
-the hashtag ```#waterMe``` 
-If it finds the hashtag, Twipy waters my garden for the specified number
+drippy is a little Python script that I use to water my garden. 
+
+The script monitors a Twitter Timeline for the hashtag ```#waterMe``` 
+If it finds the hashtag, drippy waters my garden for the specified number
 of minutes, deletes the tweet, and sends me a message to let me know what it's
 done.
 
@@ -14,7 +15,7 @@ access Twitter.
 
 ## Installation and Running
 
-You'll need to fill in the TwitterLogin.py file with the appropriate keys and
+You'll need to fill in the api with the appropriate keys and
 secrets so that the program will have access to the Twitter account's timeline.
 
 \#waterMe can be located anywhere in the tweet, but the optional positive 
