@@ -1,7 +1,7 @@
 try:
     import RPi.GPIO as GPIO
 except ImportError:
-    import GPIOStub as GPIO
+    import gpio_stub as GPIO
 import time
 
 

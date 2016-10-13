@@ -1,7 +1,7 @@
 import twitter
 
 
-class twitterAPI:
+class TwitterAPI:
 
     def __init__(self):
 
@@ -12,8 +12,8 @@ class twitterAPI:
                                access_token_key='',
                                access_token_secret='')
 
-    def junkNotification(self):
+    def junk_notification(self):
         self.api.PostUpdate("Just deleted a junk command", )
 
-    def waterNotification(self, minutes):
+    def water_notification(self, minutes):
         self.api.PostUpdate("Watered the garden for %d minutes." % minutes, )

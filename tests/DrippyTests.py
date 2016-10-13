@@ -1,8 +1,8 @@
 import unittest
 import re
 import sys
-sys.path.append('../twipy')
-from twipy import SprinklerGPIO
+sys.path.append('../drippy')
+from drippy import SprinklerGPIO
 
 
 class OptionsInputTests(unittest.TestCase):
